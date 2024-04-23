@@ -1,0 +1,41 @@
+.create-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+  }
+  
+  .create-profile form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .create-profile label {
+    font-weight: bold;
+  }
+  
+  .create-profile textarea {
+    width: 100%;
+    height: 100px;
+  }
+  
+  .create-profile .submit-button {
+    margin-top: 10px;
+  }
+  
+  .create-profile button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
